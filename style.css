@@ -1,0 +1,417 @@
+#navbar{
+    height: 70px;
+}
+#logo{
+    height: 70px;
+    width: 20%;
+}
+#list{
+    margin-right: 800px;
+}
+.menu-icon{
+    display: none;
+}
+.icon{
+    margin-left: 1250px;
+    margin-top: -75px;
+}
+#home-content{
+    height: 250px;
+    width: 300px;
+    margin-top: -380px;
+    position: absolute;
+    margin-left: 70%;
+    color: white;
+    font-family: "Josefin Slab", serif;
+
+}
+#contents-2{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 1150px;
+}
+.img-2{
+    width: 80%;
+    margin: 70px;
+    height: 700px;
+}
+#home-content2{
+    height: 250px;
+    width: 300px;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 5%;
+    color: rgb(0, 0, 0);
+    font-family: "Josefin Slab", serif;
+
+}
+.img-3{
+    margin-top: 70px;
+    width: 85%;
+    height: 1000px;
+}
+#contents-3{
+    height: 900px;
+    width: 100%;
+}
+.img-4{
+    width: 100%;
+}
+.contents-3{
+    height: 200px;
+    width: 400px;
+    margin-left: 40%;
+    margin-top: -200px;
+}
+.img-5{
+    width: 70%;
+    margin: 100px;
+}
+.contents-4{
+    height: 200px;
+    width: 320px;
+    margin-left: 100px;
+    margin-top: -100px;
+}
+#contents-4-link{
+    color: black;
+    font-weight: 600;
+}
+.img-6{
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 0px;
+}
+.contents-6{
+    background-color: white; 
+    height: 250px; 
+    width: 350px; 
+    margin-top: 225px; 
+    margin-left: 30%;
+}
+#black-bg{
+    height: 1100px;
+}
+.shop{
+    font-size: 10%;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.btn1{
+    margin-top: -70px;
+    position: absolute;
+    margin-left: 500px;
+    background-color: white;
+    border: 2px solid black;
+    height: 60px;
+    width: 170px;
+}
+.btn2{
+    margin-top: -70px;
+    position: absolute;
+    margin-left: 690px;
+    background-color: white;
+    border: 2px solid black;
+    height: 60px;
+    width: 170px;
+}
+.btn3{
+    margin-top: -70px;
+    position: absolute;
+    margin-left: 880px;
+    background-color: white;
+    border: 2px solid black;
+    height: 60px;
+    width: 250px;
+}
+.btn4{
+    margin-top: -70px;
+    position: absolute;
+    margin-left: 1150px;
+    background-color: white;
+    border: 2px solid black;
+    height: 60px;
+    width: 250px;
+}
+#club{
+    font-size: 20px;
+    margin-left: 550px;
+    color: black;
+}
+#insta{
+    margin-left: 20px;
+}
+#footer-1{
+    margin: 50px 0px 0px 20%;
+}
+#footer{
+    margin: 50px 0px 0px 45%;
+}
+#btn-j{
+    background-color: black;
+    color: white;
+    width: 75px;
+    height: 40px;
+    border: none;
+}
+#btn-j:hover{
+    background-color: rgb(88, 88, 85);
+}
+#btn-c{
+    height: 30px;
+    width: 100px;
+    font-size: x-small;
+    background-color: black;
+    color: greenyellow;
+    border: none;
+}
+#btn-c:hover{
+    background-color: greenyellow;
+    color: white;
+}
+#foot{
+    height: 400px;
+}
+#foot-1{
+    height: 400px;
+}
+#foot-2{
+    height: 400px;
+}
+#foot-3{
+    height: 400px;
+}
+#hrline{
+    display: none;
+}
+#iconplus{
+    display: none;
+}
+.last{
+    height: 30px;
+    width: 100%;
+    margin-top: 90px;
+}
+#last{
+    margin-left: 35%;
+}
+#last1{
+    margin-left: 30px;
+}
+#last2{
+    margin-left: 30px;
+}
+#last3{
+    margin-left: 30px;
+}
+#last4{
+    margin-left: 30px;
+}
+.site{
+    margin: -23px 0px 0px 45%;
+}
+.privacy{
+    margin: -23px 0px 0px 50%;
+
+}
+.terms{
+    margin: -23px 0px 0px 55%;
+ 
+}
+.ship{
+    margin: -24px 0px 0px 60%;
+
+}
+#row12{
+    height: 1200px;
+    width: 100%;
+}
+
+@media (max-width: 480px){
+    html,body{
+        height: 100vh;
+        width: 100%;
+        margin: 0px;
+        width: 100%;
+    }
+    .menu-icon{
+        display: contents;
+    }
+    #list{
+        display: none;
+    }
+    #logo{
+        height: 80px;
+        width: 40%;
+    }
+    .icon{
+        display: none;
+    }
+    #img-home{
+        height: 500px;
+    }
+    #home-content{
+        margin-top: -300px;
+        margin-left: 100px;
+        width: 270px;
+        font-family: "Josefin Slab", serif;
+    }
+    .img-2{
+        width: 100vw;
+        margin: 0px;
+    }
+    #home-content2{
+        margin-top: -250px;
+        margin-left: 90px;
+    }
+    .img-3{
+        display: none;
+    }
+    .img-4{
+        margin-top: -650px;
+    }
+    .contents-3{
+        margin-left: 20px;
+        margin-top: -200px;
+    }
+    #contents-4{
+        margin-top: -875px;
+        margin-left: -10px;
+    }
+    .img-5{
+        width: 350px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    .contents-4{
+        margin-top: -320px;
+        color: white;
+        margin-left: 60px;
+    }
+    #contents-4-link{
+        color: white;
+    }
+    .img-6{
+        display: none;
+    }
+
+    #carousel{
+        width: 100%;
+        margin-top: -1400px;
+        margin-left: 15px;
+    }
+    #carousel-con{
+        display: none;
+    }
+    #black-bg{
+        display: none;
+    }
+    #shop{
+        margin-top: -780px;
+        margin-left: -100px;
+        /* height: 400px; */
+    }
+    .btn1{
+        margin-top: 0px;
+        margin-left: 20px;
+        position: absolute;
+        height: 40px;
+    }
+    .btn2{
+        margin-top: 0px;
+        margin-left: 220px;
+        position: absolute;
+        height: 40px;
+    }
+    .btn3{
+        margin-top: 70px;
+        margin-left: 20px;
+        position: absolute;
+        height: 40px;
+        width: 370px;
+    }
+    .btn4{
+        margin-top: 140px;
+        margin-left: 20px;
+        position: absolute;
+        height: 40px;
+        width: 370px;
+    }
+    .p-tag{
+        font-size: small;
+    }
+    #club{
+        margin-left: 25px;
+    }
+    .club-mon{
+        margin-top: 200px;
+    }
+    #foot{
+        width: 100%;
+        margin-top: -40px;
+        margin-left: -150px;
+    }
+    #foot-1{
+        width: 100%;
+        margin-top: -30px;
+        margin-left: -40px;
+    }
+    #foot{
+        height: 200px;
+    }
+    #foot-1{
+        height: 200px;
+    }
+    #foot-2{
+        height: 300px;
+        width: 100%;
+        margin-top: -40px;
+        margin-left: -40px;
+    }
+    #foot-3{
+        height: 200px;
+        width: 100%;
+        margin-top: -40px;
+        margin-left: -40px;
+    }
+    #btn-c{
+        height: 50px;
+        width: 430px;
+        margin-left: -40px;
+        margin-top: 20px;
+    }
+    #hrline{
+        display: flex;
+    }
+    #iconplus{
+        display: flex;
+        margin: -20px 0px 0px 370px;    
+    }
+    .last{
+        margin-top: 650px;
+        height: 80px;
+    }
+    #last{
+        margin: 250px  0px 0px 0px;
+        display: none;
+    }
+    .site{
+        margin-left: 25%;
+    }
+    .privacy{
+        margin-top: -23px;
+        margin-left: 35%;
+    }
+    .terms{
+        margin-top: -23px;
+        margin-left: 50%;
+    }
+    .ship{
+        margin-left: 35%;
+        margin-top: 10px;
+    }
+    #row12{
+        height: 0px;
+        width: 100%;
+    }
+}
